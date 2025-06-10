@@ -35,3 +35,9 @@ func main() {
 	// Start the server
 	app.Listen(":8000")
 }
+
+// นี่ก็คือตัวอย่างของการ implement hexagonal architecture อย่างง่าย ที่เหลือ
+
+// ถ้ามีส่วน business logic เพิ่มขึ้น = ต้องเพิ่ม service, data structure
+// ถ้ามีส่วนต้องเพิ่ม spec ในการรับข้อมูล = ต้องเพิ่ม Port
+// ถ้ามีส่วนต้องเปลี่ยน adapter ไปใช้อีกตัวหนึ่ง = ต้องเปลี่ยน Adapter (หรือสามารถเพิ่ม Adapter เพื่อใช้ตาม spec เดียวกันออกมาได้)
