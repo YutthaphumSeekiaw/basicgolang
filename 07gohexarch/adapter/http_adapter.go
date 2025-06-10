@@ -2,7 +2,7 @@ package adapter
 
 import (
 	"fmt"
-	"gohexarch/core"
+	core "gohexarch/cores"
 
 	"github.com/gofiber/fiber/v2"
 )

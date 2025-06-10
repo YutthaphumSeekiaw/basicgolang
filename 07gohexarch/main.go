@@ -2,7 +2,7 @@ package main
 
 import (
 	"gohexarch/adapter"
-	"gohexarch/core"
+	core "gohexarch/cores"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/driver/sqlite"

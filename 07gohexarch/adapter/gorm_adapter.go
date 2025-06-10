@@ -1,7 +1,7 @@
 package adapter
 
 import (
-	"gohexarch/core"
+	core "gohexarch/cores"
 
 	"gorm.io/gorm"
 )
